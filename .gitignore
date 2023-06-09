@@ -1,0 +1,21 @@
+# removed staged and then added to .gitignore
+# git rm --cached `git ls-files -i --exclude-standard`
+
+# aptana project file
+/.project
+/.idea
+
+/.htaccess
+
+# SEO
+/robots.txt
+/sitemap*.xml
+
+/*.log
+/*.tar.gz
+
+# cache and temp files
+/upload
+/web.config
+
+node_modules
