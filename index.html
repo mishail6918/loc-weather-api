@@ -2,9 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Main Local Weather Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Local Meteo Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 </head>
 <body>
-
+    <header>
+        <div class="container">
+            <div class="header-outer">
+                <div class="header__logo"><img src="images/sun.png" alt=""><h1>LocWeather</h1></div>
+                <nav class="header__nav"></nav>
+                <div class="header__search">
+                    <form>
+                        <h2>Узнай погоду в любом месте</h2>
+                        <input type="text" placeholder="Поиск города" autofocus>
+                        <button type="submit">ПОИСК</button>
+                        <span class="msg"></span>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="info"></div>
+            <div class="info-forecast"></div>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.js" integrity="sha512-8Z5++K1rB3U+USaLKG6oO8uWWBhdYsM3hmdirnOEWp8h2B1aOikj5zBzlXs8QOrvY9OxEnD2QDkbSKKpfqcIWw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
